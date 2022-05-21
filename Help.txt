@@ -1,0 +1,20 @@
+Empires can store a description on them using /empireinfo <empireName> <string?> when no arg is provided it displays empire info to anything using this command.
+
+
+
+The resource system will rely on a JSON file containing all resource data, this JSON file can be manipulated via commands from the HOST/or admins of the server.
+
+There will be a command to reset the JSON file in case the custom changes aren't satisfactory.
+
+There will be a command to add an element /addresource <name> <gatherRate?> 
+There will also be a command to change existing element's properties /changeresource <property> <value>
+There will be a command to remove an element /removeresource <name>
+
+
+probably an object that's stored instead of an array
+
+Buildings can be made on behalf of a player's current selected empire.
+These buildings only exist because a resource can be generated using them.
+Buildings will have a customizable cost associated with it.
+
+Empires who construct buildings will make resources generate at a time rate, which is set by trusted people.
