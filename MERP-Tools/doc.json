@@ -1,0 +1,13 @@
+{
+  "name": "MERP-Tools",
+  "description": "A typed safe Omegga plugin.",
+  "author": "CriticalFloof",
+  "config": {
+    "authorized-role": {
+      "description": "The role that allows users to execute powerful commands",
+      "default": "Admin",
+      "type": "role"
+    }
+  },
+  "commands": []
+}
