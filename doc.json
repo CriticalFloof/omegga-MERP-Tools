@@ -1,12 +1,37 @@
 {
   "name": "MERP-Tools",
-  "description": "A typed safe Omegga plugin.",
+  "description": "Provides a large set of diverse mechanics and commands to aid with MERP servers",
   "author": "CriticalFloof",
   "config": {
     "authorized-role": {
       "description": "The role that allows users to execute powerful commands",
       "default": "Admin",
       "type": "role"
+    },
+    "mechanics-simulation-quality": {
+      "description": "Sets the quality of the simulation by modifying the amount of updates per second. High values -> More accuracy. Low values -> More performance",
+      "type": "number",
+      "default": 1
+    },
+    "enable-resource-system": {
+      "description": "Enabling this gives players the ability to use resources/buildings, trusted users can manipulate the resource/building pool",
+      "type": "boolean",
+      "default": true
+    },
+    "enable-time-system": {
+      "description": "Enabling this allows time tracking within the plugin.",
+      "type": "boolean",
+      "default": true
+    },
+    "realistic-day-night-cycle": {
+      "description": "Enabling this setting allows the plugin to autocorrect the environment time, this prevents the visual environment to desync from the plugin's time [REQUIRES enable-time-system set to true]",
+      "type": "boolean",
+      "default": true
+    },
+    "enable-weather-system": {
+      "description": "Enabling this allows the plugin to dynamically control weather as well as provide weather commands for trusted users.",
+      "type": "boolean",
+      "default": true
     }
   },
   "commands": []

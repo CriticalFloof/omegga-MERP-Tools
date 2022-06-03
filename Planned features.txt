@@ -1,0 +1,15 @@
+
+Help command marks help sections red if they are related to disabled content (Not nessesary)
+
+Technology System (Maybe later)
+
+Weather System (Should be held)
+
+Dynamically set what resources an empire can start with (This)
+
+EMPIRE TRADING!!!! (Would be nice.)
+
+Battle mode, when a battle is initiated, time slows down to a host defined timescale. (Maybe later)
+
+Replace SetColor to Renaming empires
+

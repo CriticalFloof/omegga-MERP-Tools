@@ -1,12 +1,30 @@
+import { OmeggaPlayer } from "omegga";
+
 export interface PlayerData {
-    selectedEmpire:string
-    empires:{
-        name:string[],
-        color:string[],
-        buildings:{ownership:string[],name:string[],amount:string[]}
-    }
+    savedRolls:any[],
+    selectedEmpire:string,
+    empires:any[]
 }
 
-export interface ResourceData {
-    index:{name:string,gatherRate:string,factoryName:string,description:string}[]
+export interface ServerData {
+    runLoopData:{
+        countdown:number
+    },
+    globalData:{
+        time:number
+        timeScale:number,
+        regionLatitiude:number, // 90 to -90
+        regionMoisture:number,
+        regionHumidity:number,
+        regionTemperature:number,
+        regionWindSpeed:number,
+        worldAxisTilt:number, // 0 to 90
+        
+    },
+    allPlayers:OmeggaPlayer[],
+    defaultRolls:any[],
+    resourceIndex:any[],
+    buildingIndex:any[],
+    startingResourceIndex:any[],
+    startingBuildingIndex:any[]
 }
